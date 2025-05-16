@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Interactive Bloom's Taxonomy Staircase</title>
+<style>
+    .highlight:hover {
+      fill: yellow;
+      cursor: pointer;
+      filter: drop-shadow(0 0 5px gold);
+    }
+</style>
+</head>
+<body>
+<h1>Bloom’s Taxonomy Interactive Staircase</h1>
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <g id="Connectors">
+    <polygon points="738.21 701.07 740.6 722.47 829.79 819.5 828.19 797.7 738.21 701.07" fill="#cadef2" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="830 819.67 945.52 731.5 944.59 710.39 828.67 797.76 830 819.67" fill="#cae1f5" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="738.02 700.35 733.55 678.09 850.36 601.42 852.27 622.26 738.02 700.35" fill="#b3d1ee" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="653.04 591.66 647.81 568.48 763.61 500.92 766.78 524.18 653.04 591.66" fill="#a8c8e9" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="575.8 493.16 568.88 467.71 684.91 408.63 688.31 432.37 575.8 493.16" fill="#89b2df" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="740.3 721.99 734.05 677.58 653.1 591.74 662.47 636.15 740.3 721.99" fill="#bed3ed" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="592.77 560.67 576.49 493.63 647.78 568.44 662.3 636.07 592.77 560.67" fill="#adcaea" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="505.31 402.49 531.39 493.6 591.88 559.66 569.47 467.67 505.31 402.49" fill="#9bbfe4" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="944.55 710.08 944.96 687.06 850.29 600.52 852.46 622.46 944.55 710.08" fill="#cae6d2" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="764.02 500.83 767.13 524.4 850.56 599.97 848.66 576.14 764.02 500.83" fill="#bee1c8" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="761.54 476.41 763.77 500.62 688.91 432.44 685.15 408.92 761.54 476.41" fill="#addabc" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="612.8 324.11 616.97 347.91 684.74 408.57 681.54 382.97 612.8 324.11" fill="#9ed4b1" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="712.84 251.34 716.18 275.28 786.31 329.26 784.5 304.77 712.84 251.34" fill="#c0d72f" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="788.95 353.06 786.45 331.07 866.32 389.79 868.27 415.11 788.95 353.06" fill="#c9dc52" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="682.51 383.32 685.15 407.81 789.23 353.54 787.01 330.31 682.51 383.32" fill="#90cfa6" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="761.38 476.71 763.74 500.67 868.76 439.85 868.3 415.12 761.38 476.71" fill="#a7d8b7" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="955.44 483.49 955.01 507 868.58 439.64 867.81 414.93 955.44 483.49" fill="#d3e27b" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="848.66 575.93 850.69 600.31 954.45 530.43 955.34 507.2 848.66 575.93" fill="#b6ddc0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1051.81 584.86 1050.15 609.33 954.58 530.66 955.14 507.11 1051.81 584.86" fill="#dde9a2" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="945.85 687.36 944.66 710.47 1048.24 632.27 1050.21 609.85 945.85 687.36" fill="#c3e3cc" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="945.63 731.08 944.9 709.9 1048.45 632.4 1046.58 653.34 945.63 731.08" fill="#c7e2df" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1046.76 653.6 1137.96 582.7 1140.69 561.45 1048.89 631.84 1046.76 653.6" fill="#cfe2c6" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1050.34 609.32 1048.89 631.67 1141.46 561.28 1144.15 538.74 1050.34 609.32" fill="#cce4b8" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1052.03 584.91 1050.24 609.12 1144.45 538.51 1148.19 515.58 1052.03 584.91" fill="#d1e395" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1052.45 422.41 1049.95 445.7 1148.1 514.95 1151.89 490.54 1052.45 422.41" fill="#f3e7a0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="805.71 183.32 806.61 207.41 881.93 256.97 881.23 230.53 805.71 183.32" fill="#f3d927" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="784.97 304.49 786.74 330 882.33 280.96 881.76 257.22 784.97 304.49" fill="#b4d334" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="881.56 257.45 882.22 280.94 962.95 335.76 963.75 311.1 881.56 257.45" fill="#f3de4f" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="866.92 389.6 867.82 414.61 962.47 360.38 963.14 337.09 866.92 389.6" fill="#bdd748" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="962.77 336.49 962.22 360.52 1052.4 421.94 1054.11 396.81 962.77 336.49" fill="#f2e379" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="955.65 483.21 955.1 506.79 1050.36 445.61 1052.47 422.18 955.65 483.21" fill="#c7dd6f" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1141.74 560.85 1138.25 582.54 1219.43 518.85 1223.04 498.54 1141.74 560.85" fill="#d9dec5" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1144.69 538.5 1141.6 560.98 1223.44 498.27 1228.05 475.38 1144.69 538.5" fill="#d6e0b1" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1148.24 515.12 1144.9 538.12 1228.58 474.85 1232.73 452.89 1148.24 515.12" fill="#dadf94" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1152.1 490.62 1148.56 514.84 1233.39 452.15 1238.14 428.67 1152.1 490.62" fill="#e7dd94" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1141.62 342.11 1138.62 365.71 1238.03 428.08 1243.97 403.13 1141.62 342.11" fill="#f3d4b6" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1054.19 396.53 1052.24 421.53 1139.29 365.99 1141.81 342.21 1054.19 396.53" fill="#e6d76c" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1052.45 261.59 1051.52 285.66 1141.88 341.86 1145.02 315.84 1052.45 261.59" fill="#f3c698" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="963.57 311.12 963.13 336.22 1052 286.19 1052.96 261.95 963.57 311.12" fill="#e7d242" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="970.06 188.74 969.71 212.47 1052.93 261.34 1053.78 235.63 970.06 188.74" fill="#f2b578" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="881.72 230.18 881.58 256.82 970.13 212.4 969.85 188.38 881.72 230.18" fill="#e5cc1e" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="894.14 119.19 894 144.12 970.02 188.11 970.39 161.87 894.14 119.19" fill="#f3a659" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1223.39 498.65 1219.83 518.66 1293.02 461.6 1297.95 442.05 1223.39 498.65" fill="#d9d4cc" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1228.19 475.16 1223.65 498.45 1297.99 441.77 1303.73 418.9 1228.19 475.16" fill="#d8d7b8" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1233.07 452.74 1228.75 474.48 1304.08 418.47 1309.68 395.75 1233.07 452.74" fill="#dbd69e" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1238.19 427.97 1233.65 452.04 1309.95 394.91 1315.65 371.58 1238.19 427.97" fill="#e5d0a9" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1244.11 403.4 1238.12 428.12 1316.38 371.06 1321.58 348.61 1244.11 403.4" fill="#e6c7a9" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1224.83 267.32 1220.94 291.66 1321.71 348.12 1328.92 321.73 1224.83 267.32" fill="#f2c0d1" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1145.04 315.69 1141.85 341.72 1221.4 291.5 1224.25 267.4 1145.04 315.69" fill="#e5b88a" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1136.1 192.88 1133.37 217.95 1225.56 267.31 1229.93 240.58 1136.1 192.88" fill="#f3a6c0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1054.32 235.9 1053.03 261.48 1133.75 217.93 1136.32 192.76 1054.32 235.9" fill="#e6a96c" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1053.49 123.38 1051.47 148.4 1136.48 192.12 1140.22 166.68 1053.49 123.38" fill="#f38db0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="970.35 161.88 970.38 187.99 1052.14 148.09 1053.68 123.45 970.35 161.88" fill="#e79a4b" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="976.26 59.27 976.14 83.37 1053.96 123.32 1054.28 97.2 976.26 59.27" fill="#f1749e" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1297.96 441.94 1293.16 461.37 1359.75 409.3 1365.11 389.92 1297.96 441.94" fill="#d9ccdc" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1304.06 418.83 1298.21 441.56 1365.32 389.55 1371.46 368.19 1304.06 418.83" fill="#d8cdc9" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1309.68 395.43 1304.37 418.58 1371.82 367.47 1378.27 345.25 1309.68 395.43" fill="#ddcdb0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1316.46 371.3 1309.95 395.14 1378.89 344.34 1385.4 322.3 1316.46 371.3" fill="#e5c4ae" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1321.59 348.03 1316.67 370.94 1385.52 322.15 1392.88 297.22 1321.59 348.03" fill="#e4bcb6" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1328.53 321.77 1321.78 347.32 1393.18 296.84 1399.85 272.66 1328.53 321.77" fill="#e6b3c5" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1230.22 240.44 1225.68 266.99 1298.75 221.34 1303.8 197.35 1230.22 240.44" fill="#e699b3" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1140.11 166.5 1136.75 192 1209.71 153.23 1213.68 128.34 1140.11 166.5" fill="#e580a3" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1054.56 97.65 1054.12 123.58 1129.36 88.1 1130.94 64.27 1054.56 97.65" fill="#e56791" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="531.74 493.11 300.81 612.76 353.5 697.78 592.47 561.22 531.74 493.11" fill="#abbdcc" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="413.89 792.65 353.91 697.48 592.97 561.5 662.45 636.79 413.89 792.65" fill="#bccad6" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="482.1 902.97 413.98 792.58 662.05 637.38 741.37 724.11 482.1 902.97" fill="#ced9e4" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="561.43 1029.04 481.92 903.05 742.1 724.38 830.44 821.53 561.43 1029.04" fill="#dee5ee" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1043.04 1050.87 830.05 821.53 944.72 732.84 1157.04 935.75 1043.04 1050.87" fill="#e8f4fc" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1259.27 834.09 1157.16 935.86 944.83 732.52 1046.99 653.43 1259.27 834.09" fill="#e1f1e4" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1348.65 743.61 1259.28 834.11 1047.47 653.1 1137.26 583.92 1348.65 743.61" fill="#f4f6d7" stroke="#000" stroke-miterlimit="10"/>
+    <path d="M1429.85,661.22c-.03.14-81.53,82.38-81.53,82.38l-211.41-159.57,81.84-64.3,211.11,141.48Z" fill="#fffad8" stroke="#000" stroke-miterlimit="10"/>
+    <polygon points="1498.71 591.47 1429.66 661.22 1218.81 519.97 1292.44 462.12 1498.71 591.47" fill="#fff1e2" stroke="#000" stroke-miterlimit="10"/>
+    <path d="M1564.81,525.31l-66.06,65.97-205.04-129.12s65.62-51.18,65.93-52.04,205.17,115.19,205.17,115.19Z" fill="#fce5ef" stroke="#000" stroke-miterlimit="10"/>
+  </g>
+  <g id="Squares">
+    <polygon class="highlight" id="List" points="738.11 700.98 828.14 798.13 943.8 710.11 852.03 622.62 738.11 700.98" fill="#c7e1f5" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Recognize" points="733.22 678.19 850.48 601.23 766.54 524.27 653.56 591.86 733.22 678.19" fill="#bbd6f0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Recall" points="647.6 568.79 763.42 500.74 688.66 432.53 575.88 493.55 647.6 568.79" fill="#a9caeb" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Identify" points="568.78 468.32 505.11 402.67 617.03 347.85 684.14 408.29 568.78 468.32" fill="#a9caeb" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Summarize" points="945.59 687.32 1050.06 609.57 954.5 531.02 850.03 600.93 945.59 687.32" fill="#cfe9d6" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Classify" points="848.43 576.2 954.72 507.25 868.38 439.69 763.97 500.34 848.43 576.2" fill="#c5e4ce" stroke="#000" stroke-miterlimit="10"/>
+    <polygon  class="highlight" id="Clarify" points="761.3 476.49 867.4 415.11 789.55 352.85 684.82 408.6 761.3 476.49" fill="#b6ddc0" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Predict" points="681.49 383.51 786.69 330.49 715.76 275.56 612.11 323.45 681.49 383.51" fill="#a7d8b7" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Respond" points="954.74 507.28 1051.67 584.96 1147.38 515.68 1049.91 445.59 954.74 507.28" fill="#eaeeae" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Provide" points="867.26 415.23 955.33 483.81 1051.97 422.05 962.04 360.52 867.26 415.23" fill="#dfe784" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Carry_out" data-name="Carry out" points="786.79 330.37 866.56 390.12 962.49 336.52 882.38 280.87 786.79 330.37" fill="#d6e158" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Use" points="712.35 250.98 784.09 304.95 880.83 257.61 806.94 207.73 712.35 250.98" fill="#ccdb2a" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Select" points="1051.76 422.22 1151.75 491.27 1237.88 428.64 1138.42 365.83 1051.76 422.22" fill="#fef5af" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Differentiate" points="962.93 336.29 1053.85 396.82 1141.36 341.9 1051.53 286.13 962.93 336.29" fill="#fff087" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Integrate" points="882.02 256.98 964.05 311.02 1052.38 261.69 969.67 212.47 882.02 256.98" fill="#feeb5d" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Deconstruct" points="805.7 183.16 881 230.68 969.81 188.07 893.86 144.26 805.7 183.16" fill="#ffe630" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Check" points="1141.38 342.04 1243.96 403.59 1320.52 348.19 1220.88 291.64 1141.38 342.04" fill="#fee0c2" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Determine" points="1052.17 261.62 1144.74 315.85 1224.79 267.3 1133.9 217.98 1052.17 261.62" fill="#fed2a4" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Judge" points="970.24 188.57 1053.89 235.91 1135.99 192.48 1051.63 148.46 970.24 188.57" fill="#fdc286" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Reflect" points="893.83 119.01 970.33 161.76 1052.86 123.46 976.36 83.77 893.83 119.01" fill="#fbb267" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Generate" points="1224.24 267.38 1328.8 321.76 1399.95 272.41 1298.86 221.27 1224.24 267.38" fill="#f9cbdd" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Assemble" points="1136.22 192.45 1230.08 240.88 1303.22 197.33 1210.47 153.33 1136.22 192.45" fill="#f7b1cb" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Design" points="1053.18 123.92 1139.61 166.75 1213.34 128.03 1128.96 87.75 1053.18 123.92" fill="#f498ba" stroke="#000" stroke-miterlimit="10"/>
+    <polygon class="highlight"  id="Create" points="976.43 59.04 1054.54 97.46 1130.54 63.6 1052.1 28.05 976.43 59.04" fill="#f27faa" stroke="#000" stroke-miterlimit="10"/>
+  </g>
+  <g id="Text">
+    <text transform="translate(694.33 591.23)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Recognize</tspan></text>
+    <text transform="translate(632.5 491.93)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Recall</tspan></text>
+    <text transform="translate(554.66 398.65)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24.38" font-weight="700"><tspan x="0" y="0">Identify</tspan></text>
+    <text transform="translate(339.6 622.22) rotate(-27.44)" fill="#0071bc" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">metacognitive</tspan></text>
+    <text transform="translate(377.52 623.53) rotate(-27.44)" font-family="Avenir-Book, Avenir" font-size="11.38"><tspan letter-spacing=".04em"><tspan x="0" y="0">Knowledge of cognition in</tspan></tspan><tspan x="-5.9" y="13.65" letter-spacing=".04em">general as well as awa</tspan><tspan x="115.85" y="13.65" letter-spacing=".02em">r</tspan><tspan x="119.85" y="13.65" letter-spacing=".04em">eness</tspan><tspan letter-spacing=".04em"><tspan x="-6.35" y="27.3">and knowledge of one’s own</tspan></tspan><tspan letter-spacing=".04em"><tspan x="44.77" y="40.95">cognition.</tspan></tspan></text>
+    <text transform="translate(410.57 723.59) rotate(-30.73)" font-family="Avenir-Book, Avenir" font-size="13.12"><tspan letter-spacing=".04em"><tspan x="0" y="0">How to do something, methods</tspan></tspan><tspan x="1.12" y="15.75" letter-spacing=".04em">of inquir</tspan><tspan x="54.08" y="15.75" letter-spacing="-.05em">y</tspan><tspan x="59.69" y="15.75" letter-spacing=".04em">, and criteria for using</tspan><tspan letter-spacing=".04em"><tspan x="7.07" y="31.5">skills, algorithms, techniques,</tspan></tspan><tspan letter-spacing=".04em"><tspan x="56.62" y="47.25">and methods.</tspan></tspan></text>
+    <text transform="translate(483.05 814.54) rotate(-32.73)" font-family="Avenir-Book, Avenir" font-size="14.5"><tspan x="0" y="0" letter-spacing=".04em">The inter</tspan><tspan x="62.54" y="0" letter-spacing=".02em">r</tspan><tspan x="67.63" y="0" letter-spacing=".04em">elationship among</tspan><tspan letter-spacing=".04em"><tspan x="1.33" y="17.4">the basic elements within a </tspan></tspan><tspan x="3.38" y="34.8" letter-spacing=".04em">la</tspan><tspan x="15.46" y="34.8" letter-spacing=".02em">r</tspan><tspan x="20.55" y="34.8" letter-spacing=".04em">ger structu</tspan><tspan x="95.94" y="34.8" letter-spacing=".02em">r</tspan><tspan x="101.03" y="34.8" letter-spacing=".04em">e that enable</tspan><tspan x="6.45" y="52.2" letter-spacing=".04em">them to function togethe</tspan><tspan x="181.75" y="52.2" letter-spacing="-.06em">r</tspan><tspan x="185.76" y="52.2" letter-spacing=".04em">.</tspan></text>
+    <text transform="translate(552.3 935.86) rotate(-36.01)" font-family="Avenir-Book, Avenir" font-size="16.38"><tspan letter-spacing=".04em"><tspan x="0" y="0">The basic elements students</tspan></tspan><tspan letter-spacing=".04em"><tspan x="-2.59" y="19.65">must know to be acquainted </tspan></tspan><tspan letter-spacing=".04em"><tspan x="14.73" y="39.3">with a discipline or solve</tspan></tspan><tspan x="54.91" y="58.95" letter-spacing=".04em">p</tspan><tspan x="65.52" y="58.95" letter-spacing=".02em">r</tspan><tspan x="71.26" y="58.95" letter-spacing=".04em">oblems in it.</tspan></text>
+    <text transform="translate(905.92 805.49) rotate(45)" font-family="Avenir-Book, Avenir" font-size="17.88"><tspan x="0" y="0" letter-spacing=".04em">Retrieve </tspan><tspan x="76.11" y="0" letter-spacing=".02em">r</tspan><tspan x="82.38" y="0" letter-spacing=".04em">elevant knowledge</tspan><tspan x="17.88" y="21.45" letter-spacing=".04em">f</tspan><tspan x="23.84" y="21.45" letter-spacing=".02em">r</tspan><tspan x="30.11" y="21.45" letter-spacing=".04em">om long-term memor</tspan><tspan x="213.45" y="21.45" letter-spacing="-.05em">y</tspan><tspan x="221.08" y="21.45" letter-spacing=".04em">.</tspan></text>
+    <text transform="translate(1038.53 719.2) rotate(42.66)" font-family="Avenir-Book, Avenir" font-size="15.62"><tspan x="0" y="0" letter-spacing=".04em">Construct meaning f</tspan><tspan x="152.47" y="0" letter-spacing=".02em">r</tspan><tspan x="157.95" y="0" letter-spacing=".04em">om</tspan><tspan letter-spacing=".04em"><tspan x="3.48" y="18.75">instructional messages,</tspan></tspan><tspan letter-spacing=".04em"><tspan x="-10.39" y="37.5">including oral, written, and</tspan></tspan><tspan letter-spacing=".04em"><tspan x=".42" y="56.25">graphic communication.</tspan></tspan></text>
+    <text transform="translate(1108.9 643.96) rotate(37.91)" font-family="Avenir-Book, Avenir" font-size="15.62"><tspan x="0" y="0" letter-spacing=".04em">Carry out or use a p</tspan><tspan x="149.58" y="0" letter-spacing=".02em">r</tspan><tspan x="155.06" y="0" letter-spacing=".04em">ocedu</tspan><tspan x="201.67" y="0" letter-spacing=".02em">r</tspan><tspan x="207.15" y="0" letter-spacing=".04em">e</tspan><tspan letter-spacing=".04em"><tspan x="34.44" y="18.75">in a given situation.</tspan></tspan></text>
+    <text transform="translate(1209.9 570.42) rotate(35.99)" font-family="Avenir-Book, Avenir" font-size="12.75"><tspan x="0" y="0" letter-spacing=".04em">B</tspan><tspan x="8.5" y="0" letter-spacing=".02em">r</tspan><tspan x="12.98" y="0" letter-spacing=".04em">eak material into constituent</tspan><tspan letter-spacing=".04em"><tspan x="-.12" y="15.3">parts and determine how parts</tspan></tspan><tspan x="-4.16" y="30.6" letter-spacing=".02em">r</tspan><tspan x=".31" y="30.6" letter-spacing=".04em">elate to one another and to an </tspan><tspan x="7.08" y="45.9" letter-spacing=".04em">overall structu</tspan><tspan x="93.92" y="45.9" letter-spacing=".02em">r</tspan><tspan x="98.4" y="45.9" letter-spacing=".04em">e or purpose.</tspan></text>
+    <text transform="translate(1282.1 517.06) rotate(33.42)" font-family="Avenir-Book, Avenir" font-size="12.75"><tspan letter-spacing=".04em"><tspan x="0" y="0">Make judgments based on</tspan></tspan><tspan x="12.92" y="15.3" letter-spacing=".04em">criteria and standa</tspan><tspan x="126.91" y="15.3" letter-spacing=".02em">r</tspan><tspan x="131.39" y="15.3" letter-spacing=".04em">ds.</tspan></text>
+    <text transform="translate(1354.51 451.17) rotate(32.11)" font-family="Avenir-Book, Avenir" font-size="11.5"><tspan letter-spacing=".04em"><tspan x="0" y="0">Put elements together to form a</tspan></tspan><tspan x="1.04" y="13.8" letter-spacing=".04em">cohe</tspan><tspan x="27.89" y="13.8" letter-spacing=".02em">r</tspan><tspan x="31.93" y="13.8" letter-spacing=".04em">ent whole; </tspan><tspan x="93.48" y="13.8" letter-spacing=".02em">r</tspan><tspan x="97.51" y="13.8" letter-spacing=".04em">eo</tspan><tspan x="111.58" y="13.8" letter-spacing=".02em">r</tspan><tspan x="115.61" y="13.8" letter-spacing=".04em">ganize into</tspan><tspan x="15.33" y="27.6" letter-spacing=".04em">a new pattern or structu</tspan><tspan x="147.95" y="27.6" letter-spacing=".02em">r</tspan><tspan x="151.99" y="27.6" letter-spacing=".04em">e.</tspan></text>
+    <text transform="translate(418.55 692.39) rotate(-29.81)" fill="#0071bc" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0" letter-spacing=".13em">p</tspan><tspan x="19.04" y="0" letter-spacing=".11em">r</tspan><tspan x="34.45" y="0" letter-spacing=".13em">ocedural</tspan></text>
+    <text transform="translate(479.29 783.5) rotate(-31.82)" fill="#0071bc" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="30.88" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">conceptual</tspan></text>
+    <text transform="translate(569.32 888.07) rotate(-35.09)" fill="#0071bc" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="37.62" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">factual</tspan></text>
+    <text transform="translate(949 802.21) rotate(42.68)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="35.75" font-weight="700"><tspan x="0" y="0" letter-spacing=".11em">r</tspan><tspan x="19.76" y="0" letter-spacing=".13em">emembe</tspan><tspan x="174.05" y="0" letter-spacing=".11em">r</tspan></text>
+    <text transform="translate(1054.33 700.2) rotate(40.33)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="33.5" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">understand</tspan></text>
+    <text transform="translate(1172.82 651.27) rotate(37.55)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="33.88" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">apply</tspan></text>
+    <text transform="translate(1256.42 576.2) rotate(34.37)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">analyze</tspan></text>
+    <text transform="translate(1316.34 510.91) rotate(32.32)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700" letter-spacing=".13em"><tspan x="0" y="0">evaluate</tspan></text>
+    <text transform="translate(1397.19 458.56) rotate(30.45)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0" letter-spacing=".13em">c</tspan><tspan x="15.91" y="0" letter-spacing=".11em">r</tspan><tspan x="31.32" y="0" letter-spacing=".13em">eate</tspan></text>
+    <text transform="translate(662.45 319.55)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24.62" font-weight="700"><tspan x="0" y="0">P</tspan><tspan x="15.04" y="0" letter-spacing="-.02em">r</tspan><tspan x="25.53" y="0">edict</tspan></text>
+    <text transform="translate(733.55 403.77)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="26.5" font-weight="700"><tspan x="0" y="0">Clarify</tspan></text>
+    <text transform="translate(812.11 498.55)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Classify</tspan></text>
+    <text transform="translate(1000.58 502.82)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Respond</tspan></text>
+    <text transform="translate(886.46 605.7)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Summarize</tspan></text>
+    <text transform="translate(916.02 410.9)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">P</tspan><tspan x="17.03" y="0" letter-spacing="-.02em">r</tspan><tspan x="28.9" y="0">ovide</tspan></text>
+    <text transform="translate(825.62 327.25)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="23.75" font-weight="700"><tspan x="0" y="0">Carry out</tspan></text>
+    <text transform="translate(776.11 245.77)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Use</tspan></text>
+    <text transform="translate(1106.55 415.93)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Select</tspan></text>
+    <text transform="translate(990.44 340.17)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="23.25" font-weight="700"><tspan x="0" y="0">Diffe</tspan><tspan x="49.05" y="0" letter-spacing="-.02em">r</tspan><tspan x="58.95" y="0">entiate</tspan></text>
+    <text transform="translate(1191.86 339.01)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">Check</tspan></text>
+    <text transform="translate(1086.81 260.43)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="22.88" font-weight="700"><tspan x="0" y="0">Determine</tspan></text>
+    <text transform="translate(1022.51 180.77)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24" font-weight="700"><tspan x="0" y="0">Judge</tspan></text>
+    <text transform="translate(1264.79 265.47)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="24" font-weight="700"><tspan x="0" y="0">Generate</tspan></text>
+    <text transform="translate(1174.71 190.67)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="21.75" font-weight="700"><tspan x="0" y="0">Assemble</tspan></text>
+    <text transform="translate(1099.67 119)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="23.25" font-weight="700"><tspan x="0" y="0">Design</tspan></text>
+    <text transform="translate(1018.62 57.81)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="22.25" font-weight="700"><tspan x="0" y="0">C</tspan><tspan x="16.07" y="0" letter-spacing="-.02em">r</tspan><tspan x="25.54" y="0">eate</tspan></text>
+    <text transform="translate(920.87 254.13)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="23.5" font-weight="700"><tspan x="0" y="0">Integrate</tspan></text>
+    <text transform="translate(835.78 188.6)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="20.12" font-weight="700"><tspan x="0" y="0">Deconstruct</tspan></text>
+    <text transform="translate(942.43 116.46)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="20.62" font-weight="700"><tspan x="0" y="0">Reflect</tspan></text>
+    <text transform="translate(817.72 694.63)" fill="#c1272d" font-family="TimesNewRomanPS-BoldMT, &apos;Times New Roman&apos;" font-size="27.88" font-weight="700"><tspan x="0" y="0">List</tspan></text>
+    <text transform="translate(757.65 718.72)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">primary and secondary</tspan><tspan x="60.85" y="18.6">colors.</tspan></text>
+    <text transform="translate(889.82 625.95)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500"><tspan x="0" y="0" letter-spacing=".04em">featu</tspan><tspan x="39.04" y="0" letter-spacing=".02em">r</tspan><tspan x="45.07" y="0" letter-spacing=".04em">es of a new</tspan><tspan x="33.45" y="18.6" letter-spacing=".04em">p</tspan><tspan x="43.49" y="18.6" letter-spacing=".02em">r</tspan><tspan x="49.52" y="18.6" letter-spacing=".04em">oduct.</tspan></text>
+    <text transform="translate(978.91 525.17)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500"><tspan x="0" y="0" letter-spacing=".04em">to f</tspan><tspan x="26.71" y="0" letter-spacing=".02em">r</tspan><tspan x="32.74" y="0" letter-spacing=".04em">equently asked</tspan><tspan letter-spacing=".04em"><tspan x="34.74" y="18.6">questions.</tspan></tspan></text>
+    <text transform="translate(1070.78 433.48)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">the most complete list</tspan><tspan x="34.88" y="16.8">of activities.</tspan></text>
+    <text transform="translate(1169.18 354.05)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12.38" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">for consistency among</tspan></tspan><tspan x="43.21" y="14.85" letter-spacing=".04em">sou</tspan><tspan x="64.31" y="14.85" letter-spacing=".02em">r</tspan><tspan x="69.13" y="14.85" letter-spacing=".04em">ces.</tspan></text>
+    <text transform="translate(1282.7 282.08)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12.38" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">a lot of daily</tspan><tspan x="9.07" y="14.85">activities.</tspan></text>
+    <text transform="translate(1199.39 207.68)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12.38" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">a team of</tspan><tspan x="3.91" y="14.85">experts.</tspan></text>
+    <text transform="translate(1086.61 134.14)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="11.25" font-weight="500"><tspan x="0" y="0" letter-spacing=".04em">an efficient p</tspan><tspan x="72.29" y="0" letter-spacing=".02em">r</tspan><tspan x="76.67" y="0" letter-spacing=".04em">oject</tspan><tspan x="25.41" y="13.5" letter-spacing=".04em">workflo</tspan><tspan x="66.68" y="13.5" letter-spacing="-.02em">w</tspan><tspan x="75.01" y="13.5" letter-spacing=".04em">.</tspan></text>
+    <text transform="translate(1002.4 69.43)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="10.12" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">an innovative learning</tspan><tspan x="31.03" y="12.15">portfolio.</tspan></text>
+    <text transform="translate(1103.3 276.2)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12.38" font-weight="500"><tspan x="0" y="0" letter-spacing=".02em">r</tspan><tspan x="4.81" y="0" letter-spacing=".04em">elevance of</tspan><tspan x="15.04" y="14.85" letter-spacing=".02em">r</tspan><tspan x="19.85" y="14.85" letter-spacing=".04em">esults.</tspan></text>
+    <text transform="translate(995.68 198.86)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="11.5" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">efficiency of sampling</tspan></tspan><tspan letter-spacing=".04em"><tspan x="28.96" y="13.8">techniques.</tspan></tspan></text>
+    <text transform="translate(951.01 129.96)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="10.75" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">on one’s</tspan></tspan><tspan x="-2.27" y="12.9" letter-spacing=".04em">p</tspan><tspan x="4.69" y="12.9" letter-spacing=".02em">r</tspan><tspan x="8.87" y="12.9" letter-spacing=".04em">og</tspan><tspan x="22.62" y="12.9" letter-spacing=".02em">r</tspan><tspan x="26.81" y="12.9" letter-spacing=".04em">ess.</tspan></text>
+    <text transform="translate(1010.09 356.29)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="14" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">high and low</tspan></tspan><tspan x="17.89" y="16.8" letter-spacing=".04em">cultu</tspan><tspan x="51.34" y="16.8" letter-spacing=".02em">r</tspan><tspan x="56.78" y="16.8" letter-spacing=".04em">e.</tspan></text>
+    <text transform="translate(924.83 271.46)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="11.38" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">compliance with</tspan></tspan><tspan x="12.11" y="13.65" letter-spacing=".02em">r</tspan><tspan x="16.54" y="13.65" letter-spacing=".04em">egulations.</tspan></text>
+    <text transform="translate(854.86 204.59)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="11.38" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">one’s biases.</tspan></text>
+    <text transform="translate(927.48 432.14)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">advice to</tspan></tspan><tspan letter-spacing=".04em"><tspan x="4.16" y="18.6">novices.</tspan></tspan></text>
+    <text transform="translate(819.13 344.2)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="13.75" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">pH tests of water</tspan></tspan><tspan letter-spacing=".04em"><tspan x="29.29" y="16.5">samples.</tspan></tspan></text>
+    <text transform="translate(733.26 257.37)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12.12" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">techniques that match</tspan></tspan><tspan x="18.3" y="14.55" letter-spacing=".04em">one’s st</tspan><tspan x="64.57" y="14.55" letter-spacing=".02em">r</tspan><tspan x="69.29" y="14.55" letter-spacing=".04em">engths.</tspan></text>
+    <text transform="translate(812.18 518.41)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500"><tspan letter-spacing=".04em"><tspan x="0" y="0">adhesives by</tspan></tspan><tspan x="18.65" y="18.6" letter-spacing=".04em">toxicit</tspan><tspan x="66.3" y="18.6" letter-spacing="-.04em">y</tspan><tspan x="73.48" y="18.6" letter-spacing=".04em">.</tspan></text>
+    <text transform="translate(744.04 420.85)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="14.38" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">assembly</tspan><tspan x="-10.92" y="17.25">instructions.</tspan></text>
+    <text transform="translate(644.56 334.36)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12" font-weight="500"><tspan x="0" y="0" letter-spacing=".04em">one’s </tspan><tspan x="35.14" y="0" letter-spacing=".02em">r</tspan><tspan x="39.8" y="0" letter-spacing=".04em">esponse to</tspan><tspan x="11.45" y="14.4" letter-spacing=".04em">cultu</tspan><tspan x="40.12" y="14.4" letter-spacing=".02em">r</tspan><tspan x="44.79" y="14.4" letter-spacing=".04em">e shock.</tspan></text>
+    <text transform="translate(711.11 611.13)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">symptoms</tspan><tspan x="-15.1" y="18.6">of exhaustion.</tspan></text>
+    <text transform="translate(610.49 509.72)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="15.5" font-weight="500" letter-spacing=".04em"><tspan x="0" y="0">how to perform</tspan><tspan x="41.07" y="18.6">CPR.</tspan></text>
+    <text transform="translate(525.2 414.49)" fill="#0071bc" font-family="Avenir-Medium, Avenir" font-size="12.38" font-weight="500"><tspan x="0" y="0" letter-spacing=".04em">strategies for </tspan><tspan x="85.24" y="0" letter-spacing=".02em">r</tspan><tspan x="90.05" y="0" letter-spacing=".04em">etaining</tspan><tspan letter-spacing=".04em"><tspan x="32.64" y="14.85">information.</tspan></tspan></text>
+  </g>
+</svg>
+
+  
+ 
+</body>
+</html>
