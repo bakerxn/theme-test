@@ -103,7 +103,7 @@
     <polygon class="highlight"  id="Predict" points="681.49 383.51 786.69 330.49 715.76 275.56 612.11 323.45 681.49 383.51" fill="#a7d8b7" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Respond" points="954.74 507.28 1051.67 584.96 1147.38 515.68 1049.91 445.59 954.74 507.28" fill="#eaeeae" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Provide" points="867.26 415.23 955.33 483.81 1051.97 422.05 962.04 360.52 867.26 415.23" fill="#dfe784" stroke="#000" stroke-miterlimit="10"/>
-    <polygon class="highlight"  id="Carry_out" data-name="Carry out" points="786.79 330.37 866.56 390.12 962.49 336.52 882.38 280.87 786.79 330.37" fill="#d6e158" stroke="#000" stroke-miterlimit="10"/>
+    <a href="https://bakerxn.github.io/blooms-stAIrcase/squares/carry_out.html" target="_blank"><polygon class="highlight"  id="Carry_out" data-name="Carry out" points="786.79 330.37 866.56 390.12 962.49 336.52 882.38 280.87 786.79 330.37" fill="#d6e158" stroke="#000" stroke-miterlimit="10"/></a>
     <polygon class="highlight"  id="Use" points="712.35 250.98 784.09 304.95 880.83 257.61 806.94 207.73 712.35 250.98" fill="#ccdb2a" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Select" points="1051.76 422.22 1151.75 491.27 1237.88 428.64 1138.42 365.83 1051.76 422.22" fill="#fef5af" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Differentiate" points="962.93 336.29 1053.85 396.82 1141.36 341.9 1051.53 286.13 962.93 336.29" fill="#fff087" stroke="#000" stroke-miterlimit="10"/>
@@ -114,7 +114,7 @@
     <polygon class="highlight"  id="Judge" points="970.24 188.57 1053.89 235.91 1135.99 192.48 1051.63 148.46 970.24 188.57" fill="#fdc286" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Reflect" points="893.83 119.01 970.33 161.76 1052.86 123.46 976.36 83.77 893.83 119.01" fill="#fbb267" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Generate" points="1224.24 267.38 1328.8 321.76 1399.95 272.41 1298.86 221.27 1224.24 267.38" fill="#f9cbdd" stroke="#000" stroke-miterlimit="10"/>
-    <polygon class="highlight"  id="Assemble" points="1136.22 192.45 1230.08 240.88 1303.22 197.33 1210.47 153.33 1136.22 192.45" fill="#f7b1cb" stroke="#000" stroke-miterlimit="10"/>
+    <a href="https://bakerxn.github.io/blooms-stAIrcase/squares/assemble.html" target="_blank"><polygon class="highlight"  id="Assemble" points="1136.22 192.45 1230.08 240.88 1303.22 197.33 1210.47 153.33 1136.22 192.45" fill="#f7b1cb" stroke="#000" stroke-miterlimit="10"/></a>
     <polygon class="highlight"  id="Design" points="1053.18 123.92 1139.61 166.75 1213.34 128.03 1128.96 87.75 1053.18 123.92" fill="#f498ba" stroke="#000" stroke-miterlimit="10"/>
     <polygon class="highlight"  id="Create" points="976.43 59.04 1054.54 97.46 1130.54 63.6 1052.1 28.05 976.43 59.04" fill="#f27faa" stroke="#000" stroke-miterlimit="10"/>
   </g>
