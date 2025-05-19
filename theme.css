@@ -85,6 +85,22 @@ button:hover, .btn:hover {
   background-color: #357ABD;
 }
 
+.nav-buttons a,
+.btn {
+  padding: 10px 15px;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+ 
+.nav-buttons a:hover,
+.btn:hover {
+  background: #005a99;
+}
+
 .table {
   width: 100%;
   border-collapse: collapse;
